@@ -13,22 +13,56 @@
         <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="app">             
-                <div class="container">
-                        <div class="row">
-                            <div class="col-xs-6">COL69899</div>
-                            <div class="col-xs-6">COL6</div>
+      <nav class="navbar navbar-inverse">
+                        <div class="container-fluid">
+                          <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span> 
+                            </button>
+                            <a class="navbar-brand" href="#">MiAppMovil prueba</a>
+                          </div>
+                          <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                              <li class="active"><a href="#">Home</a></li>
+                              <li><a href="index.html">Inicio</a></li>
+                              <li><a href="categoria.html">Categoria</a></li>
+                              <li><a href="detalles.html">Detalle</a></li> 
+                               
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <div class="row">
-                            <div class="col-xs-4">COL4</div>
-                            <div class="col-xs-4">COL4</div>
-                            <div class="col-xs-4">COL4</div>
-                        </div>
-                            <div class="row">
-                          ...
-                        </div>
-                      </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+                      </nav>
+        <div class="container-fluid">
+          <h4>Detalles</h4>       
+            <div class="row">
+              <table class="table" border="1">
+                <tbody>
+                  <div class="col-xs-4">
+                    título
+                    </div>
+                    <div class="col-xs-8" class="text-left">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  </div>
+                  <div class="col-xs-6">
+                  <tr>
+                    <td>título
+                    <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  <tr>
+                  </div>
+                    <td>...
+                    <td>...
+                  <tr>
+                    <td>...
+                    <td>...
+                </tbody>
+              </table>
+            </div>
+          </div>
     </body>
 </html>
